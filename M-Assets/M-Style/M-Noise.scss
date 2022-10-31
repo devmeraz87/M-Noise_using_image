@@ -96,4 +96,9 @@ h1 {
   font-size: 120px;
   font-family: 'Akaya Telivigala', cursive;
   color: #fff;
+  text-align: center;
+
+   @media only screen and (max-width: 678px) {
+    font-size: 110px;
+   }
 }
